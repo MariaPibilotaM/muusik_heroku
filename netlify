@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "https://prog.keeleressursid.ee/veebid/muusika_analyys/data"
-  to = "http://prog.keeleressursid.ee/veebid/muusika_analyys/data"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
