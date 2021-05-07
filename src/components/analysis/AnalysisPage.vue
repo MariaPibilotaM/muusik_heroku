@@ -8,7 +8,7 @@
             <Upload @addData="addData" @addFile="addFile"></Upload>
         </div>
         <div v-if="loadingScreen" class="loading-animation">
-        <Loading></Loading>
+            <Loading></Loading>
         </div>
     </div>
 </template>
@@ -22,7 +22,7 @@
 
     export default {
         name: "AnalysisPage.vue",
-        components: { Upload, Loading},
+        components: {Upload, Loading},
         props: [MusicDescription],
         data() {
             return {
@@ -34,7 +34,7 @@
             }
         },
         methods: {
-            addFile(file){
+            addFile(file) {
                 this.loadingScreen = true;
                 const path = 'http://prog.keeleressursid.ee/veebid/muusika_analyys/data';
                 axios.delete(path)
@@ -46,7 +46,7 @@
                 params.append('link', '-');
                 axios.post(path, params)
                     .then(() => {
-                        this.$router.push({ name: 'Tulemus' })
+                        this.$router.push({name: 'Tulemus'})
                     })
                     .catch((error) => {
                         console.log(error);
@@ -65,7 +65,7 @@
 
                 axios.post(path, params)
                     .then(() => {
-                        this.$router.push({ name: 'Tulemus' })
+                        this.$router.push({name: 'Tulemus'})
                     })
                     .catch((error) => {
                         console.log(error);

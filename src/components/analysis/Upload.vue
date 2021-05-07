@@ -6,7 +6,7 @@
         </div>
         <p class="lead lead-gray">või sisesta YouTube veebilink</p>
         <div class="input-group mb-3">
-            <div class="input-group-prepend" >
+            <div class="input-group-prepend">
                     <span class="input-group-text" id="inputGroup-sizing-default">
                         <i class="bi bi-globe2"></i>
                     </span>

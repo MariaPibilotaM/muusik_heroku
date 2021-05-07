@@ -16,24 +16,30 @@
                 <a href="https://et.wikipedia.org/wiki/Tempo">Tempo</a><br>
                 <a href="https://et.wikipedia.org/wiki/Muusikaline_pinge">Muusikaline pinge</a><br>
                 <a href="https://et.wikipedia.org/wiki/Kulminatsioon">Kulminatsioon</a><br>
-                <a href="https://www.britannica.com/story/whats-the-difference-between-tempo-and-rhythm">Tempo change</a><br>
+                <a href="https://www.britannica.com/story/whats-the-difference-between-tempo-and-rhythm">Tempo
+                    change</a><br>
                 <a href="http://mt.ema.edu.ee/ii-sissejuhatus-kontrapunkti/ii-1-meloodia/">II.1 Meloodia (hääl)</a><br>
-                <a href="https://courses.lumenlearning.com/musicappreciation_with_theory/chapter/tempo-markings-and-changes/">Tempo Markings and Changes</a><br>
+                <a href="https://courses.lumenlearning.com/musicappreciation_with_theory/chapter/tempo-markings-and-changes/">Tempo
+                    Markings and Changes</a><br>
                 <a href="https://miksike.ee/documents/main/referaadid/tempo.htm">Tempo ja teose esitusviis</a><br>
-                <a href="https://eller.tmk.ee/~kaie.magimets/muusika/tempo.html">Tempo on helitöö esitamise kiirus</a><br>
+                <a href="https://eller.tmk.ee/~kaie.magimets/muusika/tempo.html">Tempo on helitöö esitamise
+                    kiirus</a><br>
             </p>
             <h2>Taggs</h2>
             <p class="lead-gray lead tagg-table">
                 <a href="https://www.britannica.com/art/rock-music">Rock</a><br>
                 <a href="https://www.allmusic.com/genre/pop-rock-ma0000002613">Pop/Rock</a><br>
-                <a href="https://www.encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/pop-music">Pop music</a><br>
+                <a href="https://www.encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/pop-music">Pop
+                    music</a><br>
                 <a href="https://www.allmusic.com/style/pop-ma0000012254">Pop</a><br>
-                <a href="https://www.billboard.com/articles/columns/rock/9500633/alternative-music-meaning-2020-executives-analysis">What does 'alternative' mean in 2020?</a><br>
+                <a href="https://www.billboard.com/articles/columns/rock/9500633/alternative-music-meaning-2020-executives-analysis">What
+                    does 'alternative' mean in 2020?</a><br>
                 <a href="https://www.merriam-webster.com/dictionary/alternative%20music">Alternative music</a><br>
                 <a href="https://official.fm/indie/">Indie</a><br>
                 <a href="https://www.britannica.com/art/electronic-dance-music">Electronic dance music</a><br>
                 <a href="https://www.allmusic.com/style/club-dance-ma0000002544">Club/dance</a><br>
-                <a href="https://www.allmusic.com/subgenre/alternative-indie-rock-ma0000012230">Alternative/Indie Rock</a><br>
+                <a href="https://www.allmusic.com/subgenre/alternative-indie-rock-ma0000012230">Alternative/Indie
+                    Rock</a><br>
                 <a href="https://www.allmusic.com/subgenre/alternative-indie-rock-ma0000012230">Jazz</a><br>
                 <a href="https://www.allmusic.com/genre/jazz-ma0000002674">Jazz</a><br>
                 <a href="https://www.allmusic.com/subgenre/heavy-metal-ma0000002721">Metal</a><br>
@@ -71,10 +77,11 @@
 
 <style scoped>
 
-.lead{
-    padding-top: 1rem;
-}
-    .tagg-table{
+    .lead {
+        padding-top: 1rem;
+    }
+
+    .tagg-table {
         display: grid;
         grid-template-columns: auto auto auto auto;
         padding-bottom: 25px;

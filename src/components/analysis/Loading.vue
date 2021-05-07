@@ -24,23 +24,26 @@
 
 <style scoped>
     /** https://codepen.io/ahmadbassamemran/pen/zQKqba **/
-    .loading-container{
+    .loading-container {
         align-items: center;
     }
-    .loading-text{
+
+    .loading-text {
         margin-top: 30%;
-        left:50%;
+        left: 50%;
     }
-    .wrapper{
-        position:absolute;
-        top:40%;
-        left:50%;
-        transform:translate(-50%, -50%);
+
+    .wrapper {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         width: 250px;
         display: flex;
         justify-content: space-between;
     }
-    .circle{
+
+    .circle {
         display: inline-block;
         width: 15px;
         height: 15px;
@@ -50,45 +53,53 @@
         transform-origin: bottom center;
         position: relative;
     }
-    @keyframes loading{
-        0%{
+
+    @keyframes loading {
+        0% {
             transform: translateY(0px);
             background-color: #C71585;
         }
-        50%{
+        50% {
             transform: translateY(50px);
             background-color: #20bdb2;
         }
-        100%{
+        100% {
             transform: translateY(0px);
             background-color: #b9b1cb;
         }
     }
-    .circle-1{
+
+    .circle-1 {
         animation-delay: 0.1s;
     }
-    .circle-2{
+
+    .circle-2 {
         animation-delay: 0.2s;
     }
-    .circle-3{
+
+    .circle-3 {
         animation-delay: 0.3s;
     }
-    .circle-4{
+
+    .circle-4 {
         animation-delay: 0.4s;
     }
-    .circle-5{
+
+    .circle-5 {
         animation-delay: 0.5s;
     }
-    .circle-6{
+
+    .circle-6 {
         animation-delay: 0.6s;
     }
-    .circle-7{
+
+    .circle-7 {
         animation-delay: 0.7s;
     }
-    .circle-8{
+
+    .circle-8 {
         animation-delay: 0.8s;
     }
-
 
 
 </style>

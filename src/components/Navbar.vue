@@ -57,9 +57,10 @@
         right: 3rem;
         top: 2rem;
     }
-a:hover{
-    color: black;
-    text-decoration:none
-}
+
+    a:hover {
+        color: black;
+        text-decoration: none
+    }
 
 </style>

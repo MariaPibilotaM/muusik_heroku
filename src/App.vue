@@ -11,13 +11,14 @@
 </template>
 <script>
     import Navbar from "./components/Navbar";
+
     export default {
         components: {
             Navbar,
         },
-        data(){
-            return{
-                show:false
+        data() {
+            return {
+                show: false
             }
         }
     }
@@ -29,7 +30,7 @@
     @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
     @import "~vue-file-agent/dist/vue-file-agent.css";
 
-.menu{
-    z-index: 999999 !important;
-}
+    .menu {
+        z-index: 999999 !important;
+    }
 </style>

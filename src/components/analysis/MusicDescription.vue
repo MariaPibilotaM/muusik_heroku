@@ -168,8 +168,8 @@
                     .replaceAll('[võtmemärk]', v6ti)
                     .replaceAll('[märk2]', m2rk2)
                     .replaceAll('[0]', laused[0])
-                    .replaceAll('[1]',laused[1])
-                    .replaceAll('[2]',laused[2]);
+                    .replaceAll('[1]', laused[1])
+                    .replaceAll('[2]', laused[2]);
 
                 // Filling gaps in tempo description
                 let lause = this.data.bpm[this.nr(4, 9)].replace('[termin]', this.italian).replace('[om]', this.data[this.italian].omadus).replace('[vahemik]', this.data[this.italian].vahemik);
