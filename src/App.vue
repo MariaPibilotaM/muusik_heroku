@@ -1,5 +1,6 @@
 <template>
     <div id="page-container">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         <div id="content-wrap">
             <Navbar class="menu"></Navbar>
             <router-view></router-view>
