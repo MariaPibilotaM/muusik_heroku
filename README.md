@@ -1,35 +1,24 @@
-# Muusikateose automaatne kirjeldamine loomulikus eesti keeles
-Bakalaureusetöö raames loodud veebirakendus muusikateoste automaatseks kirjeldamiseks.
+# heroku
 
-
-## Käivitamine
-Lokaalseks käivitamiseks on vaja alla laadida Docker: https://www.docker.com/products/docker-desktop
-
-### Projekti seadistamine
+## Project setup
 ```
-yarn install
+npm install
 ```
 
-### Projekti kompileerimine
+### Compiles and hot-reloads for development
 ```
-yarn serve
-```
-
-### Docker konteineri käivitamine:
-```
-docker build -t nimi .
-
-docker run -p 5000:5000 nimi
-
+npm run serve
 ```
 
-## Tehnoloogiad
-* Vue.js
-* Docker
-* Flask
-* Python
+### Compiles and minifies for production
+```
+npm run build
+```
 
-## Autorid
-Maria Pibilota Murumaa
+### Lints and fixes files
+```
+npm run lint
+```
 
-Sven Aller - Lõputöö juhendaja
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
