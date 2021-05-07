@@ -36,7 +36,7 @@
         methods: {
             addFile(file) {
                 this.loadingScreen = true;
-                const path = 'prog.keeleressursid.ee/veebid/muusika_analyys/data';
+                const path = 'http://prog.keeleressursid.ee/veebid/muusika_analyys/data';
                 axios.delete(path)
                     .catch((error) => {
                         console.error(error);
@@ -54,14 +54,14 @@
             },
             addData(url) {
                 this.loadingScreen = true;
-                const path = 'prog.keeleressursid.ee/veebid/muusika_analyys/data';
+                const path = 'http://prog.keeleressursid.ee/veebid/muusika_analyys/data';
                 axios.delete(path)
                     .catch((error) => {
                         // eslint-disable-next-lined
                         console.error(error);
                     });
                 let params = new FormData();
-                params.append('link', url)
+                params.append('link', url);
 
                 axios.post(path, params)
                     .then(() => {
