@@ -1,6 +1,9 @@
-<template>
-    <div id="page-container">
+<html>
+    <head>
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    </head>
+    <body>
+    <div id="page-container">
         <div id="content-wrap">
             <Navbar class="menu"></Navbar>
             <router-view></router-view>
@@ -9,7 +12,8 @@
             <img src="./assets/svgs/wave-purple.svg">
         </div>
     </div>
-</template>
+    </body>
+</html>
 <script>
     import Navbar from "./components/Navbar";
 
