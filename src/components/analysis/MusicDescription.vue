@@ -121,7 +121,7 @@
                 }
             },
             loadData() {
-                const path = 'https://bit.ly/3urRgpj';
+                const path = 'http://prog.keeleressursid.ee/veebid/muusika_analyys/data';
                 axios.get(path)
                     .then((res) => {
                         this.info = res.data.data;
