@@ -121,7 +121,7 @@
                 }
             },
             loadData() {
-                const path = '/* http://prog.keeleressursid.ee/veebid/muusika_analyys/data';
+                const path = '/* http://prog.keeleressursid.ee/veebid/muusika_analyys/data:splat 200!';
                 axios.get(path)
                     .then((res) => {
                         this.info = res.data.data;
